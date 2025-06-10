@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #FFFFFF;
+}
+
+.findmap {
+    position: absolute;
+    width: 970px;
+    height: 540px;
+    left: 235px;
+    top: 210px;
+}
+
+.rectangle1, .fundo, .rectangle2, .rectangle5, .rectangle6, .rectangle7, .rectangle9 {
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.rectangle1 {
+    width: 970px;
+    height: 540px;
+    left: 235px;
+    top: 210px;
+    background: #847355;
+    border: 1px solid #FFFFFF;
+}
+
+.fundo {
+    width: 970px;
+    height: 540px;
+    left: 235px;
+    top: 210px;
+    background: url('/src/assets/image.png');
+}
+
+.referencia {
+    position: absolute;
+    width: 117px;
+    height: 24px;
+    left: 412px;
+    top: 229px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.placeholder {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 746px;
+    top: 267px;
+    background: url('/src/assets/placeholder.png');
+}
+
+.reference-image {
+    position: absolute;
+    width: 460px;
+    height: 360px;
+    left: 255px;
+    top: 253px;
+}
+
+.rectangle2 {
+    width: 460px;
+    height: 360px;
+    left: 255px;
+    top: 253px;
+    background: #292828;
+    border: 1px solid #FFFFFF;
+    filter: blur(2px);
+}
+
+.recorte1 {
+    position: absolute;
+    width: 450px;
+    height: 346px;
+    left: calc(50% - 450px/2 - 235px);
+    top: 260px;
+    background: url('/backend/recorte.png');
+}
+
+.coordenate {
+    position: absolute;
+    width: 119px;
+    height: 56px;
+    left: 911px;
+    top: 606px;
+}
+
+.rectangle7 {
+    width: 119px;
+    height: 33px;
+    left: 911px;
+    top: 629px;
+    background: rgba(217, 217, 217, 0.5);
+}
+
+.copy-icon {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 915px;
+    top: 632px;
+    background: rgba(41, 40, 40, 0.8);
+    border-radius: 5px;
+}
+
+.coordenada-text {
+    position: absolute;
+    width: 74px;
+    height: 18px;
+    left: 949px;
+    top: 636px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.coordenada-label {
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 913px;
+    top: 606px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.create-list, .start-button, .historic {
+    position: absolute;
+    width: 186px;
+    height: 44px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.create-list {
+    left: 786px;
+    top: 683px;
+}
+
+.start-button {
+    left: 577px;
+    top: 683px;
+}
+
+.historic {
+    left: 995px;
+    top: 683px;
+}
+
+.rectangle5, .rectangle6 {
+    width: 186px;
+    height: 44px;
+    border: 0.5px solid #000000;
+}
+
+.rectangle5 {
+    background: linear-gradient(178.22deg, #DA9621 40.73%, #745011 124.56%);
+}
+
+.rectangle6 {
+    background: linear-gradient(180deg, #4A4844 24.76%, #000000 160.23%);
+}
+
+.create-list-text, .start-text, .historic-text {
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.create-list-text {
+    width: 90px;
+    left: calc(50% - 90px/2 + 159px);
+    top: calc(50% - 24px/2 + 193px);
+    color: #000000;
+}
+
+.start-text {
+    width: 56px;
+    left: calc(50% - 56px/2 - 50px);
+    top: calc(50% - 24px/2 + 193px);
+    color: #FFFFFF;
+}
+
+.historic-text {
+    width: 81px;
+    left: calc(50% - 81px/2 + 368.5px);
+    top: calc(50% - 24px/2 + 193px);
+    color: #FFFFFF;
+}
+
+.settings {
+    position: absolute;
+    width: 20px;
+    height: 36px;
+    left: 1123px;
+    top: 216px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.settings-vector {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1158px;
+    top: 219px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+}
+
+.info-box {
+    position: absolute;
+    width: 302px;
+    height: 102px;
+    left: 258px;
+    top: 631px;
+}
+
+.rectangle9 {
+    width: 302px;
+    height: 102px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+}
+
+.info-label {
+    position: absolute;
+    width: 31px;
+    height: 18px;
+    left: 395px;
+    top: 614px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}

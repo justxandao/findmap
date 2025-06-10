@@ -1,3 +1,4 @@
+# capture.py
 import pyautogui
 
 class CapturaDeTela:
@@ -12,9 +13,7 @@ class CapturaDeTela:
         except Exception as e:
             print(f"Erro ao capturar a tela: {e}")
 
-def aguardar_e_capturar(atalho, caminho_arquivo):
-    import keyboard
-    print(f"Pressione {atalho} para capturar a tela...")
-    keyboard.wait(atalho)  # Aguarda o atalho ser pressionado
+# Função para capturar a tela automaticamente sem esperar por atalho
+def capturar_tela_automaticamente(caminho_arquivo):
     captura = CapturaDeTela(caminho_arquivo)
     captura.captura_tela()
